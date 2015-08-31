@@ -1,0 +1,134 @@
+body {
+  max-width: 900px;
+  min-width: 900px;
+  background-color: grey;
+}
+
+header {
+  font-family: Avenir;
+  font-weight: bolder;
+  font-size: 3em;
+  color: black;
+  text-align: center;
+}
+
+h1 {
+  font-family: Avenir;
+  font-weight: 200;
+  font-size: 2em;
+  text-align: center;
+}
+
+h2 {
+  font-family: avenir;
+  font-size: 1em;
+  font-weight: 100;
+}
+
+div {
+  min-width: 150px;
+  height: auto;
+  float: left;
+  margin: 10px 10px 10px 10px;
+  border: 4px;
+  border-color: orange;
+  border-style: dotted;
+  border-spacing: 10px;
+  color: white;
+}
+
+li {
+  font-family: Avenir;
+  align-items: center;
+  font-size: 1em;
+}
+
+input {
+  max-width: 45px;
+  align-items: center;
+  padding: 2px;
+  margin: 2px;
+}
+
+button {
+  font-size: .8em;
+  font-family: avenir;
+  align-items: center;
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  padding: 0px 0px 0px 10px;
+  vertical-align: bottom;
+}
+
+#submitted {
+  border: none;
+}
+
+#customers {
+  font-size: .75em;
+}
+#totalPerItem{
+  max-width: 75px;
+  margin-left: 15px;
+  height: auto;
+}
+
+#menu-items {
+  height: auto;
+  max-width: 150px;
+  padding: 0 0 0 1px;
+}
+
+#current-order {
+  min-width: 325px;
+}
+
+#items-each {
+  max-width: 150px;
+  min-width: 150px;
+  float: inherit;
+  margin: 7px 7px 0px 0px;
+  height: auto;
+}
+
+#quantity-each{
+  max-width: 61px;
+  min-width: 61px;
+  float: left;
+  margin: 7px 7px 0px 0px;
+  height: auto;
+}
+
+#price-each {
+  max-width: 80px;
+  min-width: 80px;
+  float: right;
+  margin: 7px 0px 0px 0px;
+  height: auto;
+}
+
+#nestedColumns {
+  border: none;
+  margin: 10px;
+  max-width: 325px;
+}
+
+#columns {
+  width: 325px;
+  height: 28px;
+  text-align: center;
+  font-family: avenir;
+  margin: 0px 5px 0px 0px;
+}
+
+#submit {
+  float: left;
+  max-width: 150px;
+  margin-left: 10px;
+  height: auto;
+}

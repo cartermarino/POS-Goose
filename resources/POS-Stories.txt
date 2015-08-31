@@ -1,0 +1,14 @@
+POS STORIES
+
+Necessary for MVP:
+
+As a customer, I want to see a virtual menu (list of food items with prices) so I can choose my meal (the food order) at the restaurant.
+
+As a customer, I want to be able to add the items of my food order to a receipt.
+
+As a customer or restaurant staff, I want to update the order so that either person can see/display the total cost (include tax) across all changes in the order.
+
+As a cashier, I want to switch between orders so I can serve multiple tables.
+
+As a customer/restaurant staff member, I want to have a nice virtual menu that makes it easy to manage orders.
+

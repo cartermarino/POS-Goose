@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="./pos.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/pos.js"></script>
+    <title>Burger POS</title>
+  </head>
+  <body>
+    <header>POS this Burger Joint</header>
+    <div id="menu">
+      <h1>Menu</h1>
+    </div>
+    <div id="current-order">
+      <h1>Current Orders</h1>
+    </div>
+    <div id="totals">
+      <h1>Total</h1>
+    </div>
+    <div id="orders">
+      <h1>Orders</h1>
+    </div>
+    <div id="menu-items">
+      <ul id="build-menu">
+        <h2 style="padding; 0px;">Make Selection</h2>
+        <!-- /*<button id="add-item" style="font-size: .5em;">+</button>*/ -->
+        <li><button class="food" id="burger">burger $4.50</button></li>
+        <li><button class="food" id="fries">fries $2.75</button></li>
+        <li><button class="food" id="shake">shake $3.25</button></li>
+        <li><button class="food" id="onion-rings">onion-rings $2.15</button></li>
+      </ul>
+    </div>
+    <div id="nestedColumns">
+      <div id="columns">Item(s) _________ Quantity ___ Price</div>
+      <div id='items-each'>
+        <ul id='food-ordered'>
+        </ul>
+      </div>
+      <div id='quantity-each'>
+        <ul id='quantities' style="padding-left: 2px;">
+        </ul>
+      </div>
+      <div id="price-each">
+        <ul id="prices">
+        </ul>
+      </div>
+    </div>
+    <div id="totalPerItem">
+      <button style="margin: 8px;" align-items="center">Pay</button>
+      <input type="number" step="0.01" placeholder="Total" id="pay-me">
+      <ul id="qntxprice" style="padding-left: 50px; padding-top: 0px;">
+      </ul>
+    </div>
+    <div id="submit">
+      <ul>
+        <li><button id="SUBMIT">SUBMIT ORDER</button></li>
+          <div id="submitted">
+            <ul style="padding-left: 15px;">
+              <li><button id="customers">US Marshall</button></li>
+              <li><button id="customers">Pan da Man</button></li>
+              <li><button id="customers">Mr.Goose</button></li>
+            </ul>
+          </div>
+      </ul>
+    </div>
+  </body>
+</html>
